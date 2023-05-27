@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* 0 - Valores Default */
+
+a{
+    font-family: 'Work Sans', sans-serif;
+    color:black;
+    text-decoration:none;
+    transition: border 0.5s,
+}
+
+button{
+    background-color:transparent;
+    font-family: 'Work Sans', sans-serif;
+    border:none;
+    cursor:pointer;
+    text-transform:uppercase;
+}
+
+/* 1 - General */
+
+body{
+    background-color:#f5f3f0;
+}
+
+header{
+    background-color:#f5f3f0;
+    font-family: 'Work Sans', sans-serif;
+    width:100%;
+    margin: 0 auto;
+    padding: 1em 0;
+    text-transform:uppercase;
+    display:flex;
+    justify-content:space-between;
+    position:fixed;
+    z-index:10;
+}
+
+nav{
+    padding-top:0.5em;
+    margin-right:0.5em;
+}
+
+img{
+    border-radius:1.5em;
+}
+
+/* 2 - Subcontenedores */
+
+nav a{
+    font-size:0.9rem;
+}
+
+.hero img{
+    width:37em;
+}
+
+.hero h1{
+    text-transform:uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-size:8.3rem;
+}
+
+.hero h3{
+    text-transform:uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-size:1.6rem;
+    font-weight:500;
+    padding: 0.5em 1em;
+    border:2px solid #CAC8C6;
+    border-radius:2em;
+    margin-right:9em;
+}
+
+.hero p{
+    font-family: 'Work Sans', sans-serif;
+    font-size:1.1rem;
+    line-height:1.3em;
+    color:#656464;
+    width:20em;
+}
+
+/* 3 - Pseudoclases */
+
+/* header:hover{
+    border-bottom:1px solid rgb(100, 100, 100);
+} */
+
+.link-menu:hover{
+    border:2px solid #CAC8C6;
+    border-radius:2em;
+}
+
+.link-menu-done:hover{
+    border:2px solid transparent;
+    border-radius:2em;
+}
+
+/* 4 - Clases */
+
+.link-menu{
+    margin: 0 0.4em;
+    padding: 0.7em 1.4em;
+    border: 2px solid transparent;
+    border-radius:2em;
+    transition: border 0.2s,
+                border-radius 0.2s;
+}
+
+.link-menu-done{
+    margin: 0 0.4em;
+    padding: 0.7em 1.4em;
+    border:2px solid #CAC8C6;
+    border-radius:2em;
+    transition: border 0.2s,
+                border-radius 0.2s;
+}
+
+.nombre{
+    font-weight:900;
+    margin-left:1.5em;
+}
+
+.hero{
+    padding-top:7em;
+    padding-bottom:12em;
+    width:85%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+}
+
+.heroh3{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.heroIntro{
+    margin-top:1.2em;
+    margin-left:0.5em;
+    display:flex;
+}
+
+.heroContent{
+    padding-top:6em;
+}
+
+.heroP{
+    margin-right:5em;
+}
+
+.myStory, .phrase, .workflow{
+    background-color: #232121;
+}
