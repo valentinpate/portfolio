@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@400;500&display=swap');
 
 *{
     margin:0;
@@ -19,7 +19,6 @@ button{
     font-family: 'Work Sans', sans-serif;
     border:none;
     cursor:pointer;
-    text-transform:uppercase;
 }
 
 /* 1 - General */
@@ -85,11 +84,37 @@ nav a{
     width:20em;
 }
 
-/* 3 - Pseudoclases */
+.storyContent img{
+    width: 36em;
+}
 
-/* header:hover{
-    border-bottom:1px solid rgb(100, 100, 100);
-} */
+.storyContent h2{
+    margin-bottom: 2em;
+}
+
+.storyContent h3{
+    font-size:1.2rem;
+    margin-bottom:3em;
+    text-transform:uppercase;
+}
+
+.story p{
+    color:#CDCBCB;
+    line-height:2em;
+    margin-bottom:2em;
+}
+
+.story button{
+    padding: 1em 2em;
+    background-color: #CDCBCB;
+    border: 2px solid transparent;
+    border-radius: 2em;
+    transition: background-color 0.5s,
+                border 0.5s,
+                color 0.5s,
+                transform 0.5s;
+}
+/* 3 - Pseudoclases */
 
 .link-menu:hover{
     border:2px solid #CAC8C6;
@@ -99,6 +124,13 @@ nav a{
 .link-menu-done:hover{
     border:2px solid transparent;
     border-radius:2em;
+}
+
+.story button:hover{
+    background-color:#656464;
+    border: 2px solid #CDCBCB;
+    color: #CDCBCB;
+    transform: scale(1.1);
 }
 
 /* 4 - Clases */
@@ -156,4 +188,23 @@ nav a{
 
 .myStory, .phrase, .workflow{
     background-color: #232121;
+}
+
+.storyContent{
+    width:90%;
+    margin: 0 auto;
+    padding-top:8em;
+    padding-bottom:6em;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+}
+
+.story{
+    margin-top:2em;
+    margin-left:9.3em;
+}
+
+.contenedorPhrase{
+    display:flex;
 }
