@@ -73,7 +73,10 @@ nav a{
     padding: 0.5em 1em;
     border:2px solid #CAC8C6;
     border-radius:2em;
-    margin-right:9em;
+    margin-right:9.6em;
+    transition: background-color 0.5s,
+                border 0.5s,
+                color 0.5s;
 }
 
 .hero p{
@@ -93,7 +96,8 @@ nav a{
 }
 
 .storyContent h3{
-    font-size:1.2rem;
+    font-size:1.3rem;
+    margin-top:0.5em;
     margin-bottom:3em;
     text-transform:uppercase;
 }
@@ -114,6 +118,54 @@ nav a{
                 color 0.5s,
                 transform 0.5s;
 }
+
+.contenedorPhrase h2{
+    color:#f5f3f0;
+    font-size:2.1rem;
+}
+
+.contenedorPhrase h5{
+    color:#CDCBCB;
+    font-size:0.9rem;
+    position:relative;
+    top:3.8em;
+    right:11em;
+}
+
+.contenedorWorkflow h3{
+    font-size:1.5rem;
+    color:#CDCBCB;
+    text-transform:uppercase;
+}
+
+.contenedorWorkflow img{
+    width:10em;
+    margin-top:2em;
+    margin-left:0.5em;
+}
+
+.pasos hr{
+    border:1px solid #656464;
+    width:50em;
+    margin-top:2.5em;
+    margin-bottom:2.5em;
+}
+
+.paso p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight:900;
+    font-size:1.5rem;
+    margin-right:1em;
+    color:#656464;
+}
+
+.paso h2{
+    font-size:1.3rem;
+    margin-top:0.1em;
+    color:#CDCBCB;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+}
 /* 3 - Pseudoclases */
 
 .link-menu:hover{
@@ -126,8 +178,14 @@ nav a{
     border-radius:2em;
 }
 
+.hero h3:hover{
+    background-color:#232121;
+    border:2px solid #232121;
+    color:#f5f3f0;
+}
+
 .story button:hover{
-    background-color:#656464;
+    background-color:#232121;
     border: 2px solid #CDCBCB;
     color: #CDCBCB;
     transform: scale(1.1);
@@ -188,15 +246,15 @@ nav a{
 
 .myStory, .phrase, .workflow{
     background-color: #232121;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .storyContent{
     width:90%;
     margin: 0 auto;
     padding-top:8em;
-    padding-bottom:6em;
+    padding-bottom:21em;
     color:white;
-    font-family: 'Montserrat', sans-serif;
     display:flex;
 }
 
@@ -206,5 +264,27 @@ nav a{
 }
 
 .contenedorPhrase{
+    width:70%;
+    margin:0 auto;
+    padding-left:3.8em;
+    padding-bottom:17em;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.contenedorWorkflow{
+    width:90%;
+    margin: 0 auto;
+    padding-top:4em;
+    display:flex;
+    justify-content:space-between;
+}
+
+.pasos{
+    padding-right:5em;
+}
+
+.paso{
     display:flex;
 }
