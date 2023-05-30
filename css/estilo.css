@@ -166,6 +166,75 @@ nav a{
     text-transform:uppercase;
     letter-spacing:0.1rem;
 }
+
+.projects h4{
+    font-family: 'Work Sans', sans-serif;
+    color:#232121;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom:5em;
+}
+
+.project1 img, .project2 img{
+    width:35em;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+
+.project1 h2, .project2 h2{
+    font-family:'Work Sans', sans-serif;
+    font-weight:400;
+    text-transform:uppercase;
+    margin-bottom:0.5em;
+}
+
+.project1 h2{
+    color:#f5f3f0;
+}
+
+.project2 h2{
+    color:#232121;
+}
+
+.project1 h3, .project2 h3{
+    font-family:'Work Sans', sans-serif;
+    font-weight:400;
+    text-transform:uppercase;
+    margin-bottom:1em;
+}
+
+.project1 h3{
+    color:#CDCBCB;
+}
+
+.project2 h3{
+    color:#232121;
+}
+
+.project1 p, .project2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.9rem;
+    font-weight:400;
+}
+
+.project1 p{
+    color:#CDCBCB;
+    margin-bottom:1.8em;
+}
+
+.project2 p{
+    color:#232121;
+    margin-bottom:1.5em;
+}
+
+.project1 a{
+    color:#f5f3f0;
+}
+
+.project1 .bi-arrow-right, .project1 .bi-arrow-down-short{
+    color:#CDCBCB;
+}
+
 /* 3 - Pseudoclases */
 
 .link-menu:hover{
@@ -189,6 +258,10 @@ nav a{
     border: 2px solid #CDCBCB;
     color: #CDCBCB;
     transform: scale(1.1);
+}
+
+.project1 a:hover, .project2 a:hover{
+    text-decoration:underline;
 }
 
 /* 4 - Clases */
@@ -270,7 +343,7 @@ nav a{
 .contenedorPhrase{
     width:70%;
     margin:0 auto;
-    padding-bottom:15em;
+    padding-bottom:11em;
     display:flex;
     justify-content:center;
     text-align:center;
@@ -284,7 +357,8 @@ nav a{
 .contenedorWorkflow{
     width:90%;
     margin: 0 auto;
-    padding-top:6em;
+    padding-top:7em;
+    padding-bottom:10em;
     display:flex;
     justify-content:space-between;
 }
@@ -296,4 +370,54 @@ nav a{
 
 .paso{
     display:flex;
+}
+
+.contenedorProjects{
+    width:65%;
+    margin: 0 auto;
+    padding-top:12em;
+}
+
+.project1{
+    background-color:#232121;
+    padding: 3em 3em 0 3em;
+    border-radius:2rem;
+    display:flex;
+    margin-bottom:4em;
+}
+
+.project2{
+    background-color:#EDEBE8;
+    padding: 3em 3em 0 3em;
+    border-radius:2rem;
+    display:flex;
+    margin-bottom:4em;
+}
+
+.page1{
+    margin-left:3.5em;
+}
+
+.links1{
+    display:flex;
+    justify-content:space-between;
+    padding-left:0.5em;
+    padding-right:2.3em;
+    padding-bottom:1.5em;
+}
+
+.links2{
+    display:flex;
+    justify-content:flex-start;
+    padding-left:0.3em;
+    padding-bottom:1.5em;
+}
+
+.bi-arrow-right{
+    padding-top:0.1em;
+    padding-left:0.5em;
+}
+
+.page2{
+    margin-right:2.5em;
 }
