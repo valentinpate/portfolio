@@ -267,7 +267,7 @@ nav a{
     width:70%;
     margin:0 auto;
     padding-left:3.8em;
-    padding-bottom:17em;
+    padding-bottom:15em;
     display:flex;
     justify-content:center;
     text-align:center;
@@ -276,13 +276,14 @@ nav a{
 .contenedorWorkflow{
     width:90%;
     margin: 0 auto;
-    padding-top:4em;
+    padding-top:6em;
     display:flex;
     justify-content:space-between;
 }
 
 .pasos{
     padding-right:5em;
+    margin-bottom:0.2em;
 }
 
 .paso{
