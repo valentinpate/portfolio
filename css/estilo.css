@@ -124,13 +124,13 @@ nav a{
     font-size:2.1rem;
 }
 
-.contenedorPhrase h5{
+/* .contenedorPhrase h5{
     color:#CDCBCB;
     font-size:0.9rem;
     position:relative;
     top:3.8em;
     right:11em;
-}
+} */
 
 .contenedorWorkflow h3{
     font-size:1.5rem;
@@ -266,11 +266,15 @@ nav a{
 .contenedorPhrase{
     width:70%;
     margin:0 auto;
-    padding-left:3.8em;
     padding-bottom:15em;
     display:flex;
     justify-content:center;
     text-align:center;
+}
+
+.phraseSpan{
+    color:#656464;
+    font-size:0.9rem;
 }
 
 .contenedorWorkflow{
