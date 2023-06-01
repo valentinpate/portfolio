@@ -274,6 +274,23 @@ nav a{
                 border 0.5s;
 }
 
+.contactsContent h4{
+    font-family: 'Work Sans', sans-serif;
+    text-transform:uppercase;
+    padding-bottom:4em;
+}
+
+.contactLinks a{
+    font-size:2rem;
+    margin:0 2.2em;
+    transition: text-shadow 0.5s;
+}
+
+.footerContent p{
+    font-family: 'Work Sans', sans-serif;
+    color:#656464;
+}
+
 /* 3 - Pseudoclases */
 
 .link-menu:hover{
@@ -303,9 +320,19 @@ nav a{
     text-decoration:underline;
 }
 
+.contactLinks a:hover{
+    text-shadow: 0 1px 2px black;
+}
+
 .skills button:hover{
     background-color:#CDCBCB;
     border: 2px solid #CDCBCB;
+}
+
+.finalLink:hover{
+    background-color:#232121;
+    border:1px solid #232121;
+    color:#CDCBCB;
 }
 
 /* 4 - Clases */
@@ -476,6 +503,7 @@ nav a{
     justify-content:space-between;
     padding-top:8em;
     padding-right:1em;
+    padding-bottom:25em;
 }
 
 .programs{
@@ -491,4 +519,39 @@ nav a{
 
 .skillsAdicional{
     padding-top:1.5em;
+}
+
+.contactsContent{
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom:4em;
+}
+
+.contactLinks{
+    padding-bottom:5em;
+}
+
+.finalLink{
+    font-size:2rem;
+    background-color: #f5f3f0;
+    border:1px solid #656464;
+    padding: 0.1em 0.1em 0 0.1em;
+    border-radius:2.5rem;
+    transition: background-color 0.5s,
+                border 0.5s
+                color 0.5s;
+}
+
+.footerContent{
+    width:92%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom: 1em;
+}
+
+.copyrightSpan{
+    font-size:0.9em;
+    padding-right:0.3em;
 }
