@@ -87,7 +87,7 @@ nav a{
     width:20em;
 }
 
-.storyContent img{
+.storyContent img, .skillsImage img{
     width: 36em;
 }
 
@@ -235,6 +235,45 @@ nav a{
     color:#CDCBCB;
 }
 
+.skillsPrograms img{
+    width:5em;
+    border-radius:0;
+}
+
+.skillsPrograms h3, .skillsPrograms h4{
+    font-family:'Work Sans',sans-serif;
+    text-transform:uppercase;
+}
+
+.skillsPrograms h3{
+    padding-bottom:1em;
+}
+
+.program p{
+    font-family:'Montserrat', sans-serif;
+    text-transform:uppercase;
+    color:#656464;
+    font-weight:900;
+    padding-left:1.5em;
+}
+
+.skillsAdicional p{
+    font-family:'Montserrat', sans-serif;
+    text-transform:uppercase;
+    color:#656464;
+    font-weight:900;
+    padding-bottom:1.7em;
+}
+
+.skills button{
+    padding: 1em 2em;
+    background-color: #f5f3f0;
+    border: 2px solid #CDCBCB;
+    border-radius: 2em;
+    transition: background-color 0.5s,
+                border 0.5s;
+}
+
 /* 3 - Pseudoclases */
 
 .link-menu:hover{
@@ -262,6 +301,11 @@ nav a{
 
 .project1 a:hover, .project2 a:hover{
     text-decoration:underline;
+}
+
+.skills button:hover{
+    background-color:#CDCBCB;
+    border: 2px solid #CDCBCB;
 }
 
 /* 4 - Clases */
@@ -351,7 +395,7 @@ nav a{
 
 .phraseSpan{
     color:#656464;
-    font-size:0.9rem;
+    font-size:1rem;
 }
 
 .contenedorWorkflow{
@@ -420,4 +464,31 @@ nav a{
 
 .page2{
     margin-right:2.5em;
+}
+
+.skills{
+    width:75%;
+    margin: 0 auto;
+}
+
+.skillsContent{
+    display:flex;
+    justify-content:space-between;
+    padding-top:8em;
+    padding-right:1em;
+}
+
+.programs{
+    display:flex;
+    padding-top:1em;
+}
+
+.program{
+    display:flex;
+    align-items:center;
+    padding: 3em 2em 3em 2em;
+}
+
+.skillsAdicional{
+    padding-top:1.5em;
 }
