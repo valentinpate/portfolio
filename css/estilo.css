@@ -87,6 +87,14 @@ nav a{
     width:20em;
 }
 
+.exploreMore p{
+    color:#656464;
+    font-size:0.7rem;
+    font-family: 'Work Sans', sans-serif;
+    transform:rotate(270deg);
+    padding-bottom:0.3em;
+}
+
 .storyContent img, .skillsImage{
     width: 36em;
 }
@@ -337,6 +345,10 @@ nav a{
 
 /* 4 - Clases */
 
+.hidden{
+    display:none;
+}
+
 .link-menu{
     margin: 0 0.4em;
     padding: 0.7em 1.4em;
@@ -391,6 +403,16 @@ nav a{
 
 .heroP{
     margin-right:5em;
+}
+
+.exploreMore{
+    padding-top:5em;
+}
+
+.exploreArrow{
+    font-size:1.4rem;
+    color: #656464;
+    margin-top:1.3em;
 }
 
 .myStory, .phrase, .workflow{
@@ -561,11 +583,6 @@ nav a{
     font-size:0.9em;
     padding-right:0.3em;
 }
-
-.hidden{
-    display:none;
-}
-
 /* Media Queries */
 
 @media (max-width:1440px){
@@ -725,6 +742,22 @@ nav a{
 }
 
 @media (max-width:768px){
+    .hero img{
+        display:none;
+    }
+    .hero h1{
+        font-size:6.7rem;
+    }
+    .hero h3{
+        font-size:1.7rem;
+        margin-right:17em;
+    }
+    .exploreSection .hidden{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
     .menu{
         display:none;
     }
@@ -732,6 +765,10 @@ nav a{
         display:flex;
         font-size:2rem;
         padding-right:0.3em;
+    }
+    .hero{
+        padding-top:6em;
+        padding-bottom:16.5em;
     }
 }
 
