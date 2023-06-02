@@ -683,6 +683,9 @@ nav a{
     .story{
         margin-left:6em;
     }
+    .contenedorPhrase{
+        width:90%;
+    }
     .contenedorWorkflow{
         width:95%;
         padding-top:5em;
@@ -773,6 +776,31 @@ nav a{
     .story p{
         font-size:1.1rem;
     }
+    .myWorkflow img{
+        display:none;
+    }
+    .pasos hr{
+        width:44.8em;
+        margin-top:2em;
+        margin-bottom:2em;
+    }
+    .project2 .hidden{
+        display:flex;
+        width:28em;
+        height:16em;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius:0;
+    }
+    .project2 .bye{
+        display:none;
+    }
+    .projects h4{
+        margin-bottom:3em;
+    }
+    .contactLinks a{
+        font-size:2rem;
+        margin: 0.8em 0;
+    }
     .menu{
         display:none;
     }
@@ -795,10 +823,40 @@ nav a{
     .story{
         margin-left:0;
     }
+    .contenedorWorkflow{
+        flex-direction:column;
+        padding-bottom:4em;
+    }
+    .myWorkflow{
+        text-align:center;
+    }
+    .paso{
+        justify-content:center;
+    }
+    .contenedorProjects{
+        padding-top:7em;
+    }
+    .project2{
+        padding:3em 3em 0 3em;
+    }
+    .links3{
+        padding-left:13.4em;
+    }
+    .skillsContent{
+        padding-top:5em;
+    }
+    .contactLinks{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
 }
 
 @media (max-width:400px){
     .burger{
         padding-right:0.3em;
+    }
+    .paso{
+        justify-content:flex-start;
     }
 }
