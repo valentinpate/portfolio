@@ -87,7 +87,7 @@ nav a{
     width:20em;
 }
 
-.storyContent img, .skillsImage img{
+.storyContent img, .skillsImage{
     width: 36em;
 }
 
@@ -642,8 +642,20 @@ nav a{
     .page1 p, .page2 p{
         margin-bottom:1.5em;
     }
+    .programs img{
+        width:6em;
+    }
+    .programs p{
+        font-size:1.5rem;
+    }
+    .skillsAdicional h3{
+        font-size:1.1rem;
+    }
+    .skillsAdicional p{
+        padding-bottom:1em;
+    }
     .hero{
-        padding-top:6em;
+        padding-top:7em;
     }
     .heroIntro{
         margin-top:0.5em;
@@ -689,6 +701,26 @@ nav a{
     }
     .links3{
         padding-left:19.8em;
+    }
+    .skills{
+        width:80%;
+    }
+    .skillsImage{
+        display:none;
+    }
+    .skillsContent{
+        justify-content:center;
+        text-align:center;
+        padding-bottom:15em;
+    }
+    .skillsPrograms{
+        padding-left:1em;
+    }
+    .contactsContent{
+        width:85%;
+    }
+    .contactLinks a{
+        font-size:1.6rem;
     }
 }
 
