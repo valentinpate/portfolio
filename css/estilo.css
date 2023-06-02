@@ -639,6 +639,9 @@ nav a{
         border-bottom-left-radius:0;
         border-bottom-right-radius:0;
     }
+    .page1 p, .page2 p{
+        margin-bottom:1.5em;
+    }
     .hero{
         padding-top:6em;
     }
@@ -659,10 +662,33 @@ nav a{
     .pasos{
         padding-right:0;
     }
+    .contenedorProjects{
+        width:80%;
+    }
     .project1, .project2{
         flex-direction:column;
         align-items:center;
         text-align:center;
+    }
+    .project2{
+        padding:1em 3em 2em 3em;
+    }
+    .page1, .page2{
+        margin-top:1.5em;
+        margin-left:0;
+    }
+    .page2{
+        margin-right:0;
+        margin-bottom:1.5em;
+    }
+    .links1{
+        padding-right:0.5em;
+    }
+    .whitelink2{
+        padding-bottom:0;
+    }
+    .links3{
+        padding-left:19.8em;
     }
 }
 
