@@ -189,6 +189,16 @@ nav a{
     border-bottom-right-radius:0;
 }
 
+.project1 img{
+    border-top: 3px solid #656464;
+    border-left: 3px solid #656464;
+}
+
+.project2 img{
+    border-top: 3px solid #CDCBCB;
+    border-right: 3px solid #CDCBCB;
+}
+
 .project1 h2, .project2 h2{
     font-family:'Work Sans', sans-serif;
     font-weight:400;
@@ -745,9 +755,9 @@ nav a{
 }
 
 @media (max-width:768px){
-    header{
+    /* header{
         width:100%;
-    }
+    } */
     .hero img{
         display:none;
     }
@@ -778,6 +788,9 @@ nav a{
     }
     .myWorkflow img{
         display:none;
+    }
+    .myWorkflow h3{
+        padding-bottom:2em;
     }
     .pasos hr{
         width:44.8em;
@@ -853,10 +866,86 @@ nav a{
 }
 
 @media (max-width:400px){
+    .hero h1{
+        font-size:3.3rem;
+    }
+    .hero h3{
+        font-size:1rem;
+        margin-right:13.5em;
+    }
+    .storyIntro h2{
+        font-size:1.7rem;
+        padding-bottom:6em;
+    }
+    .story p{
+        font-size:0.9rem;
+    }
+    .contenedorPhrase h2{
+        font-size:1.7rem;
+    }
+    .pasos hr{
+        width:22em;
+    }
+    .paso h2{
+        padding-top:0.1em;
+        font-size:0.9rem;
+    }
+    .paso p{
+        font-size:1.3rem;
+        margin-right:0.7em;
+    }
+    .project1, .project2{
+        padding:2em 3em 0 3em;
+        border-radius:1rem;
+    }
+    .project1 img{
+        width:16em;
+        height:10em;
+        border-top: 4px solid #656464;
+        border-right: 4px solid #656464;
+    }
+    .project2 .hidden{
+        width:16em;
+        height:10em;
+        border-top: 4px solid #CDCBCB;
+        border-right: 4px solid #CDCBCB;
+    }
+    .page1 h2, .page2 h2{
+        font-size:1.3rem;
+    }
+    .page1 h3, .page2 h3{
+        font-size:0.8rem;
+    }
+    .page1 p, .page2 p{
+        font-size:0.7rem;
+        text-align:start;
+        line-height:1.5em;
+    }
     .burger{
         padding-right:0.3em;
     }
+    .hero{
+        padding-top:4em;
+        padding-bottom:7em;
+    }
+    .heroIntro{
+        flex-direction:column;
+    }
+    .heroP{
+        margin-top:2em;
+        margin-right:0;
+        margin-bottom:2em;
+    }
+    .story{
+        padding-bottom:2em;
+    }
+    .contenedorPhrase{
+        padding-bottom:10em;
+    }
     .paso{
         justify-content:flex-start;
+    }
+    .links3{
+        padding-left:0;
     }
 }
