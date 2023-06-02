@@ -913,13 +913,19 @@ nav a{
     .page1 h2, .page2 h2{
         font-size:1.3rem;
     }
-    .page1 h3, .page2 h3{
+    .page1 h3, .page2 h3, .programs p{
         font-size:0.8rem;
     }
     .page1 p, .page2 p{
         font-size:0.7rem;
         text-align:start;
         line-height:1.5em;
+    }
+    .programs img{
+        width:3em;
+    }
+    footer p{
+        font-size:0.6rem;
     }
     .burger{
         padding-right:0.3em;
@@ -947,5 +953,11 @@ nav a{
     }
     .links3{
         padding-left:0;
+    }
+    .program{
+        padding:3em 1em 3em 1em;
+    }
+    .skillsContent{
+        padding-bottom:10em;
     }
 }
