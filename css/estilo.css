@@ -874,11 +874,11 @@ nav a{
     }
     .hero h3{
         font-size:1rem;
-        margin-right:13.5em;
+        margin-right:13.3em;
     }
     .storyIntro h2{
         font-size:1.7rem;
-        padding-bottom:2.5em;
+        padding-bottom:2em;
     }
     .story p{
         font-size:0.9rem;
@@ -887,7 +887,7 @@ nav a{
         font-size:1.7rem;
     }
     .pasos hr{
-        width:21.4em;
+        width:21.2em;
     }
     .paso h2{
         padding-top:0.1em;
@@ -939,8 +939,8 @@ nav a{
         padding-right:0.5em;
     }
     .hero{
-        padding-top:4em;
-        padding-bottom:7em;
+        padding-top:5em;
+        padding-bottom:5em;
     }
     .heroIntro{
         flex-direction:column;
