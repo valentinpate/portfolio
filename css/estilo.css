@@ -681,6 +681,9 @@ nav a{
     .skillsAdicional p{
         padding-bottom:1em;
     }
+    .nombre{
+        margin-left:1em;
+    }
     .hero{
         padding-top:7em;
     }
@@ -820,7 +823,7 @@ nav a{
     .burger{
         display:flex;
         font-size:2rem;
-        padding-right:0.3em;
+        padding-right:0.5em;
     }
     .hero{
         padding-top:6em;
@@ -875,7 +878,7 @@ nav a{
     }
     .storyIntro h2{
         font-size:1.7rem;
-        padding-bottom:6em;
+        padding-bottom:2.5em;
     }
     .story p{
         font-size:0.9rem;
@@ -884,7 +887,7 @@ nav a{
         font-size:1.7rem;
     }
     .pasos hr{
-        width:20em;
+        width:21.4em;
     }
     .paso h2{
         padding-top:0.1em;
@@ -902,12 +905,14 @@ nav a{
         width:16em;
         height:10em;
         border-top: 4px solid #656464;
+        border-left:0;
         border-right: 4px solid #656464;
     }
     .project2 .hidden{
         width:16em;
         height:10em;
         border-top: 4px solid #CDCBCB;
+        border-left:0;
         border-right: 4px solid #CDCBCB;
     }
     .page1 h2, .page2 h2{
@@ -921,14 +926,17 @@ nav a{
         text-align:start;
         line-height:1.5em;
     }
+    .links1 .bi-arrow-right{
+        padding-left:0.2em;
+    }
     .programs img{
-        width:3em;
+        width:3.5em;
     }
     footer p{
         font-size:0.6rem;
     }
     .burger{
-        padding-right:0.3em;
+        padding-right:0.5em;
     }
     .hero{
         padding-top:4em;
