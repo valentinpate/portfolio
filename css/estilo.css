@@ -867,7 +867,7 @@ nav a{
 
 @media (max-width:400px){
     .hero h1{
-        font-size:3.3rem;
+        font-size:3.2rem;
     }
     .hero h3{
         font-size:1rem;
@@ -884,7 +884,7 @@ nav a{
         font-size:1.7rem;
     }
     .pasos hr{
-        width:22em;
+        width:20em;
     }
     .paso h2{
         padding-top:0.1em;
@@ -950,6 +950,10 @@ nav a{
     }
     .paso{
         justify-content:flex-start;
+    }
+    .links1{
+        padding-left:0;
+        padding-right:0;
     }
     .links3{
         padding-left:0;
