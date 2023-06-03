@@ -888,7 +888,7 @@ nav a{
         font-size:1.7rem;
     }
     .pasos hr{
-        width:21.2em;
+        width:20.5em;
     }
     .paso h2{
         padding-top:0.1em;
@@ -929,6 +929,9 @@ nav a{
     }
     .links1 .bi-arrow-right{
         padding-left:0.2em;
+    }
+    .skillsAdicional p{
+        font-size:0.9rem;
     }
     .programs img{
         width:3.5em;
