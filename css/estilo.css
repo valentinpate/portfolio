@@ -49,6 +49,10 @@ img{
     border-radius:1.5em;
 }
 
+button, ::placeholder{
+    font-family:'Montserrat', sans-serif;
+}
+
 /* 2 - Subcontenedores */
 
 nav a{
@@ -304,6 +308,52 @@ nav a{
     transition: text-shadow 0.5s;
 }
 
+.formContent h4{
+    font-family:'Work Sans', sans-serif;
+    text-transform:uppercase;
+    padding-bottom:2em;
+}
+
+.formContent label{
+    margin-top:1em;
+    margin-right:0.5em;
+    text-transform:uppercase;
+    font-weight:900;
+}
+
+.formContent input{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em 2em;
+    padding:0.8em 15.5em 0.8em 1em;
+    border: 1px solid #656464;
+    border-radius:0.5rem;
+}
+
+.formContent textarea{
+    font-family: 'Montserrat', sans-serif;
+    padding-top:0.2em;
+    padding-left:0.3em;
+    margin-bottom:1em;
+    border: 1px solid #656464;
+    border-radius:0.5rem;
+}
+
+.formBox form{
+    display:flex;
+    flex-direction:column;
+}
+
+.formMessage button{
+    width:10em;
+    padding: 1em 2em;
+    margin-bottom:8em;
+    background-color: #f5f3f0;
+    border: 2px solid #CDCBCB;
+    border-radius: 2em;
+    transition: background-color 0.5s,
+                border 0.5s;
+}
+
 .footerContent p{
     font-family: 'Work Sans', sans-serif;
     color:#656464;
@@ -342,7 +392,7 @@ nav a{
     text-shadow: 0 1px 2px black;
 }
 
-.skills button:hover{
+.skills button:hover, .formMessage button:hover{
     background-color:#CDCBCB;
     border: 2px solid #CDCBCB;
 }
@@ -567,7 +617,7 @@ nav a{
 }
 
 .contactLinks{
-    padding-bottom:5em;
+    padding-bottom:3em;
 }
 
 .finalLink{
@@ -579,6 +629,26 @@ nav a{
     transition: background-color 0.5s,
                 border 0.5s
                 color 0.5s;
+}
+
+.formContent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.formBox{
+    font-family:'Montserrat', sans-serif;
+}
+
+.formBoxTwo{
+    padding-bottom:2em;
+}
+
+.formMessage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .footerContent{
