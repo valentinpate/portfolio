@@ -1006,6 +1006,13 @@ nav a{
     .programs img{
         width:3.5em;
     }
+    .formContent input{
+        padding:0.8em 6.5em 0.8em 1em; 
+    }
+    .formContent textarea{
+        width:22em;
+        height:10em;
+    }
     footer p{
         font-size:0.6rem;
     }
@@ -1045,5 +1052,8 @@ nav a{
     }
     .skillsContent{
         padding-bottom:10em;
+    }
+    .formBoxTwo{
+        padding-bottom:1em;
     }
 }
