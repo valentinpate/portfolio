@@ -869,6 +869,17 @@ nav a{
     }
 }
 
+@media(max-width:860px){
+    .menu{
+        display:none;
+    }
+    .burger{
+        display:flex;
+        font-size:2rem;
+        padding-right:0.5em;
+    }
+}
+
 @media (max-width:768px){
     /* header{
         width:100%;
