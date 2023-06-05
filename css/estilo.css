@@ -592,7 +592,7 @@ nav a{
 
 .links2{
     display:flex;
-    justify-content:flex-start;
+    justify-content:center;
     padding-left:0.3em;
     padding-bottom:1.5em;
 }
@@ -847,9 +847,6 @@ nav a{
     .whitelink2{
         padding-bottom:0;
     }
-    .links3{
-        padding-left:19.8em;
-    }
     .skills{
         width:80%;
     }
@@ -969,9 +966,6 @@ nav a{
     }
     .project2{
         padding:3em 3em 0 3em;
-    }
-    .links3{
-        padding-left:13.4em;
     }
     .skillsContent{
         padding-top:5em;
