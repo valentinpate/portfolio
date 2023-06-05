@@ -696,6 +696,17 @@ nav a{
     .hero img{
         width:26.5em;
     }
+    .storyImage img{
+        width:26em;
+    }
+    .skillsImage{
+        display:none;
+    }
+    .skillsContent{
+        justify-content:center;
+        text-align:center;
+        padding-bottom:15em;
+    }
 }
 
 @media (max-width:1024px){
