@@ -53,6 +53,10 @@ button, ::placeholder{
     font-family:'Montserrat', sans-serif;
 }
 
+li{
+    list-style:none;
+}
+
 /* 2 - Subcontenedores */
 
 nav a{
@@ -358,6 +362,27 @@ nav a{
     font-family: 'Work Sans', sans-serif;
     color:#656464;
 }
+
+/* .menuResponsive{
+    line-height:2em;
+    width:6.2em;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    background-color:#232121;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+}
+
+.menuResponsive a{
+    padding-right:0.4em;
+    font-size:1.5rem;
+    color:#EDEBE8;
+}
+
+#checkboxResponsive{
+    display:none;
+} */
 
 /* 3 - Pseudoclases */
 
