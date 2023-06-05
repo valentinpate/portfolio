@@ -692,6 +692,12 @@ nav a{
     }
 }
 
+@media (min-width:1025px) and (max-width:1342px){
+    .hero img{
+        width:26.5em;
+    }
+}
+
 @media (max-width:1024px){
     .hero img{
         width:30em;
