@@ -692,7 +692,7 @@ nav a{
     }
 }
 
-@media (min-width:1025px) and (max-width:1342px){
+@media (min-width:1025px) and (max-width:1345px){
     .hero img{
         width:26.5em;
     }
@@ -706,6 +706,9 @@ nav a{
         justify-content:center;
         text-align:center;
         padding-bottom:15em;
+    }
+    .contactLinks a{
+        font-size:1.7rem;
     }
 }
 
